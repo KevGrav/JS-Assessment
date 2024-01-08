@@ -4,3 +4,4 @@ First we will need to load our 12 snacks using the vending options. Each should 
 The screen will display "Make a selection".
 Use the keyboard to select the desired snack reference code. The buttons are interactive, as they are pressed their values are displayed on the screen.
 The snack will be dispensed into the drawer.
+
