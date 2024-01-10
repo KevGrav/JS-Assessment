@@ -1,0 +1,159 @@
+* {
+    margin: 1;
+}
+
+  body {
+    font-family: 'Lora', serif;
+    display: flex;
+    background-color: grey;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-container {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(60, 60, 200);
+  }
+
+  .vending {
+    color: white;
+    background-color: #bdbdbd;
+    width: 80%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 30px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  h1{
+    color: gold;
+    text-align: center;
+  }
+  
+  .snack-container{
+    text-align: center;
+  }
+  .snack-container img{
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    width: 80px;
+    height: 120px;
+    background-color: lightblue;
+}
+
+  .snack-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .dispenser-container{
+    display: block;
+    width: 240px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: solid 2px azure;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .control-container {
+    color: white;
+    width: 20%;
+    padding: 5px;
+    padding-top: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .code-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .letter-panel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .number-panel {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .code-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+    background-color: #bdbdbd;
+    color: black;
+  }
+  
+  #code-window {
+    height: 50px;
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+  }
+    
+  .command-panel {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 40px;
+  }
+  
+  #select {
+    background-color: darkgreen;
+  }
+  
+  #clear {
+    background-color: darkred;
+    margin-left: 5px;
+  }
+  
+  .cc-panel {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  
+  .window {
+    background-color: #bdbdbd;
+    color: darkred;
+    border-radius: 5px;
+    box-shadow: -2px -2px black;
+  }
+  
+  .control-button {
+    font-size: 18px;
+    color: #ffffff;
+    align-items: center;
+  }
