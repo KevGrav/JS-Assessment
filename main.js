@@ -1,113 +1,85 @@
-//Button constants
-const A = 'A';
-const B = 'B';
-const C = 'C';
-const ONE = '1';
-const TWO = '2';
-const THREE = '3';
-const FOUR = '4';
-
-//Variables
-let itemCode = '';
-
-
-//Display screen/window
-const codeWindow_div = document.getElementById('code-window');
-
-//Assign code and control buttons
-const a_button = document.getElementById('letter-a');
-const b_button = document.getElementById('letter-b');
-const c_button = document.getElementById('letter-c');
-const one_button = document.getElementById('number-1');
-const two_button = document.getElementById('number-2');
-const three_button = document.getElementById('number-3');
-const four_button = document.getElementById('number-4');
-const select_button = document.getElementById('select');
-const clear_button = document.getElementById('clear');
-
-//Code and control button listners
-a_button.addEventListener('click', function () {
-    console.log(A + ' pressed');
-    addToItemCode(A);
-});
-  
-b_button.addEventListener('click', function () {
-    console.log(B + ' pressed');
-    addToItemCode(B);
-});
-  
-c_button.addEventListener('click', function () {
-    console.log(C + ' pressed');
-    addToItemCode(C);
-});
-  
-one_button.addEventListener('click', function () {
-    console.log(ONE + ' pressed');
-    addToItemCode(ONE);
-});
-  
-two_button.addEventListener('click', function () {
-    console.log(TWO + ' pressed');
-    addToItemCode(TWO);
-});
-  
-three_button.addEventListener('click', function () {
-    console.log(THREE + ' pressed');
-    addToItemCode(THREE);
-});
-  
-four_button.addEventListener('click', function () {
-    console.log(FOUR + ' pressed');
-    addToItemCode(FOUR);
-});
-
-select_button.addEventListener('click', function () {
-    console.log('select pressed');
-    selectItem();
-});
-  
-clear_button.addEventListener('click', function () {
-    console.log('clear pressed');
-    itemCode = '';
-    printItemCode();
-}); 
-
-// function to check if character is valid. If yes add to itemCode
-function addToItemCode(char) {
-    if (itemCode.length < 2) {
-      if (itemCode.length < 1 && isLetter(char)) {
-        itemCode += char;
-      }
-      if (itemCode.length == 1 && !isLetter(char)) {
-        itemCode += char;
-      }
-    }
-    // console.log('item code ' + itemCode);
-    printItemCode();
-    if (itemCode.length == 2) {
-      printOutput(itemCode);
-    }
+function A1(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+        document.getElementById('myImage').src = "images/A1.jpg"
+     },4600)
+  }
+    
+function A2(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/A2.jpg';
+        },4600)
+  }
+function A3(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/A3.jpg';
+        },4600)
+  }
+function A4(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/A4.jpg';
+        },4600)
+  }
+function B1(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/B1.jpg';
+        },4600)
 }
-
-// function to check if character is a letter. true if yes
-function isLetter(char) {
-    return char.match(/[a-z]/i);
-}
-
-// function to display item code in item code screen/window
-function printItemCode() {
-    codeWindow_div.innerHTML = itemCode;
-}
-
-// function to place selected item/snack into drop box
-function selectItem(){
-    if (itemCode.length == 2) {
-        let snack = itemCode;
-        document.querySelectorAll("#snack");
-        }
-}
-
-
-
-
-
+function B2(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/B2.jpg';
+        },4600)
+  }
+function B3(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/B3.jpg';
+        },4600)
+  }
+function B4(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/B4.jpg';
+        },4600)
+  }
+function C1(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/C1.jpg';
+        },4600)
+  }
+function C2(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/C2.jpg';
+        },4600)
+  }
+function C3(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/C3.jpg';
+        },4600)
+  }
+function C4(){
+    let audio = new Audio('../sound/vendMac.mp3');
+    audio.play();
+    setTimeout(() => {
+    document.getElementById('myImage').src = 'images/C4.jpg';
+        },4600)
+  }
