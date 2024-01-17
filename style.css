@@ -70,6 +70,7 @@
   }
 
   .dispenser-container {
+    position: relative;
     display: block;
     width: 240px;
     height: 150px;
@@ -79,17 +80,25 @@
     border: solid 2px azure;
     margin-top: 20px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
   } 
 
-  #imgBox {
-    width: 80px;
+ .dispenser-container .btn{
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    width: 150px;
     height: 120px;
-    background-color: black;
+    opacity: 0;
+ }
+ 
+  #myImage {
+    width: 80px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 20px;              
   }
-
-    .control-container {
+   
+  .control-container {
     color: white;
     width: 30%;
     padding: 5px;
@@ -173,19 +182,4 @@
     width: 80PX;
   }
 
-  #dispenserContainer {
-    display: block;
-    height: 180px;
-    border: 1px solid #000;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-  #myImage {
-    width: 80px;
-    height: 100px;
-    margin: 20px;
-    margin-left: 85px;              
-}
-   
+ 
