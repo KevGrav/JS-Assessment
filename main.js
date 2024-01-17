@@ -48,9 +48,25 @@ function C4() {
     playAudioAndChangeImage('images/C4.jpg');
 }
 
+// function to shake image
+// function shakeImage() {
+//     let image = $('#myImage');
+//     image.addClass('shake');
+
+//     // Remove the 'shake' class after the animation completes
+//     setTimeout(function() {
+//       image.removeClass('shake');
+//     }, 500);
+//   }
+
 // function to clear image from drop box
 function Clear(){
     setTimeout(() => {
     document.getElementById('myImage').src = 'images/myImage.jpg';
         },10)
   }
+
+//Prints the current item code to item code window
+// function printItemCode() {
+//     codeWindow_div.innerHTML = "You sel" + myImage;
+//   }
