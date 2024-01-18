@@ -7,7 +7,7 @@ There should be a "whirring" noise, as the vending machine gets your snack and d
 The snack will be dispensed into the drawer/drop box below.
 
 Project Push - if time
-when you click on the snack it will disappear, looking like you have taken the your snack
-selected snack with wobble/shake as it drops into the drop box
+when you click on the snack it will disappear, looking like you have taken your snack.
+selected snack with wobble/shake as it drops into the drop box.
 give option to load different snacks from [inventory]
-Add cash loading , prices to each of snacks, verify if sufficient funds, return change
+Add cash loading , prices to each of snacks, verify if sufficient funds, return change.

@@ -1,6 +1,6 @@
 // Function to play sound as image of selected snack is placed in the drop box 
   function playAudioAndChangeImage(imageSource) {
-    let audio = new Audio('../sound/vendMac.mp3');
+    let audio = new Audio('https://github.com/KevGrav/Virtual_Vending_Machine/raw/master/sound/vendMac.mp3');
     audio.play();
 
     setTimeout(() => {
